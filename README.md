@@ -1,4 +1,4 @@
-# -B11109012_Homework-1_Moving-Button
+# B11109012_Homework-1_Moving-Button
 
 # Fast Click — Vibe Coding JS Game
 
