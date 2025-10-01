@@ -1,4 +1,4 @@
-name = "Moving-Button"
+name = "moving-button"
 main = "src/worker.js"
 compatibility_date = "2025-10-01"
 
