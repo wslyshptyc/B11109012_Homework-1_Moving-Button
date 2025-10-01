@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clicking Game</title>
+  <!-- Arcade font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="authorName">薛竣誠 B11109012</div>
+
+
+  <h1>Click Rush</h1>
+  <p id="gameDesc">
+  Click the button as fast as you can within the time limit!<br>
+</p>
+
+<div id="descriptionArea">
+  <p class="bonusLine">There will be bonus points if you click FASTER!</p><br><br>
+</div>
+
+  <!-- Input for time and start button -->
+  <div id="setupArea">
+    <label for="timeInput">Set time limit (seconds): </label>
+    <input type="number" id="timeInput" value="1" min="1"><br>
+    <button id="startBtn" class="arcade-btn">Start Game</button>
+  </div>
+
+  <div id="gameArea"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
